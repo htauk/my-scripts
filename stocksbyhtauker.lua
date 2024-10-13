@@ -62,6 +62,6 @@ end
 
 -- Call the function to get the website's HTML and extract the <span> value using the defined symbol
 while true do
-    getWebsiteHtml(symbol)
+    getWebsiteHtml(_G.symbol)
     wait(120)
 end
